@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TamagochiForReal")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3763cfcde962d0738f46e16cbda857e6a3d9f6ab")]
 [assembly: System.Reflection.AssemblyProductAttribute("TamagochiForReal")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TamagochiForReal")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
