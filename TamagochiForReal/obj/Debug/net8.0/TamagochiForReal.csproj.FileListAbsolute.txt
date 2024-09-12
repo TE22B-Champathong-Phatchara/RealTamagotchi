@@ -1,0 +1,14 @@
+c:\Users\phatchara.champatho\Documents\program2\RealTamagotchi\TamagochiForReal\bin\Debug\net8.0\TamagochiForReal.exe
+c:\Users\phatchara.champatho\Documents\program2\RealTamagotchi\TamagochiForReal\bin\Debug\net8.0\TamagochiForReal.deps.json
+c:\Users\phatchara.champatho\Documents\program2\RealTamagotchi\TamagochiForReal\bin\Debug\net8.0\TamagochiForReal.runtimeconfig.json
+c:\Users\phatchara.champatho\Documents\program2\RealTamagotchi\TamagochiForReal\bin\Debug\net8.0\TamagochiForReal.dll
+c:\Users\phatchara.champatho\Documents\program2\RealTamagotchi\TamagochiForReal\bin\Debug\net8.0\TamagochiForReal.pdb
+c:\Users\phatchara.champatho\Documents\program2\RealTamagotchi\TamagochiForReal\obj\Debug\net8.0\TamagochiForReal.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\phatchara.champatho\Documents\program2\RealTamagotchi\TamagochiForReal\obj\Debug\net8.0\TamagochiForReal.AssemblyInfoInputs.cache
+c:\Users\phatchara.champatho\Documents\program2\RealTamagotchi\TamagochiForReal\obj\Debug\net8.0\TamagochiForReal.AssemblyInfo.cs
+c:\Users\phatchara.champatho\Documents\program2\RealTamagotchi\TamagochiForReal\obj\Debug\net8.0\TamagochiForReal.csproj.CoreCompileInputs.cache
+c:\Users\phatchara.champatho\Documents\program2\RealTamagotchi\TamagochiForReal\obj\Debug\net8.0\TamagochiForReal.dll
+c:\Users\phatchara.champatho\Documents\program2\RealTamagotchi\TamagochiForReal\obj\Debug\net8.0\refint\TamagochiForReal.dll
+c:\Users\phatchara.champatho\Documents\program2\RealTamagotchi\TamagochiForReal\obj\Debug\net8.0\TamagochiForReal.pdb
+c:\Users\phatchara.champatho\Documents\program2\RealTamagotchi\TamagochiForReal\obj\Debug\net8.0\TamagochiForReal.genruntimeconfig.cache
+c:\Users\phatchara.champatho\Documents\program2\RealTamagotchi\TamagochiForReal\obj\Debug\net8.0\ref\TamagochiForReal.dll
