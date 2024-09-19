@@ -18,7 +18,7 @@ while(true)
 }
 
 
-System.Console.WriteLine($"\nSo! {NewTama.name} is it? Please take care IT carefully!!");
+System.Console.WriteLine($"\nSo! {NewTama.name} is it? Please take care of IT carefully!!");
 Thread.Sleep(3000);
 
 while(NewTama.GetAlive() == true)
@@ -31,7 +31,8 @@ while(NewTama.GetAlive() == true)
     System.Console.WriteLine($"\n[1] to Teach [{NewTama.name}] a word.");
     System.Console.WriteLine($"[2] to Play with [{NewTama.name}]. This will reduce [{NewTama.name}]'s tediousness.");
     System.Console.WriteLine($"[3] to Feed [{NewTama.name}]. Don't let it starving.");
-    System.Console.WriteLine($"[4] to Do nothing. Leave it be.\n");
+    System.Console.WriteLine($"[4] to Do nothing. Leave it be.");
+    NewTama.SingASong();
 
     string Command = Console.ReadLine();
 
@@ -50,9 +51,14 @@ while(NewTama.GetAlive() == true)
     {
         NewTama.Feed();
     }
-    else
+    if(Command == "4")
     {
         System.Console.WriteLine("You didn't do anything...");
+    }
+    if (Command == "5" && NewTama.SongIsReady == true)
+    {
+        System.Console.WriteLine($"\nAre you sure to let [{NewTama.name}] sing a song?\n");
+        NewTama.AREuSURE();
     }
 
     NewTama.Tick();
@@ -62,6 +68,6 @@ while(NewTama.GetAlive() == true)
 
 }
 
-Console.WriteLine($"{NewTama.name} is tired of its owner and passed away without leaving traces...");
+Console.WriteLine($"{NewTama.name} is tired of its owner and passed away without leaving any trace...");
 Console.WriteLine("Press ENTER to quit");
 Console.ReadLine();

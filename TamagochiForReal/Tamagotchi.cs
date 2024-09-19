@@ -1,13 +1,19 @@
 using System.Runtime.ConstrainedExecution;
+using System.Security.Cryptography.X509Certificates;
 
 public class Tamagotchi
 {
     private int Hunger;
     private int Boredome;
+
+    private int Affiliation;
+
     private List<string> words = new List<string> {"hai!", "HaLlo!"};
     private List<string> play = new List<string> {"You both played ball together.", "You both played a video game.", "You both had a fun time together."};
     private bool isAlive = true;
     public string name;
+
+    public bool SongIsReady = false;
 
     private int EatCoolDown = 0;
 
@@ -62,7 +68,13 @@ public class Tamagotchi
     {
         int LetsPlay = Random.Shared.Next(play.Count);
         System.Console.WriteLine(play[LetsPlay]);
+        System.Console.WriteLine($"You feel a bond with [{name}]");
         System.Console.WriteLine($"\n[{name}] want to say something!");
+        Affiliation = Affiliation + Random.Shared.Next(10,30);
+        if (Affiliation > 100)
+        {
+            Affiliation = 100;
+        }
         Thread.Sleep(1000);
         int WordToSay = Random.Shared.Next(words.Count);
         Console.WriteLine($"'{words[WordToSay]}' said [{name}]!");
@@ -77,8 +89,8 @@ public class Tamagotchi
     }
     public void Tick()
     {
-        Boredome = Boredome + Random.Shared.Next(10,17);
-        Hunger = Hunger + Random.Shared.Next(7,15);
+        Boredome = Boredome + Random.Shared.Next(9,13);
+        Hunger = Hunger + Random.Shared.Next(7,12);
         
 
         if (Boredome > 100 || Hunger > 100)
@@ -88,7 +100,7 @@ public class Tamagotchi
     }
     public void PrintStat()
     {
-        System.Console.WriteLine($"Name: [{name}] | Hunger: [{Hunger}] | Boredom : [{Boredome}] | Volcabulary: [{words.Count}]");
+        System.Console.WriteLine($"Name: [{name}] | Hunger: [{Hunger}] | Boredom : [{Boredome}] | Volcabulary: [{words.Count}] | Affiliation: [{Affiliation}]");
     }
     public bool GetAlive()
     {
@@ -96,7 +108,16 @@ public class Tamagotchi
     }
     private void ReduceBoredom()
     {
-        Boredome = Boredome - Random.Shared.Next(10,25);
+        int R = Random.Shared.Next(15,25);
+        if (R > Boredome)
+        {
+            Boredome = R - Boredome;
+        }
+        else if (R < Boredome)
+        {
+            Boredome = Boredome - R;
+        }
+
         if(Boredome < 0)
         {
             Boredome = 0;
@@ -115,4 +136,36 @@ public class Tamagotchi
         }
         
     }
+    public void SingASong()
+    {
+        
+        if(Affiliation >= 90)
+        {
+            SongIsReady = true;
+            System.Console.WriteLine($"[5] to Let [{name}] sing a song.");
+        }
+    }
+    public void AREuSURE()
+    {
+        string Command = Console.ReadLine().ToLower();
+
+        while(true)
+        {
+            if (Command.Contains('y'))
+            {
+                Console.Clear();
+                System.Console.WriteLine($"[{name}] picked up the microphone!\n");
+                while(true)
+                {
+                    System.Console.WriteLine("Shikanokonokonokokoshitantan");
+                    Console.ReadLine();
+                }
+            }
+            else
+            {
+                break;
+            }
+        }
+    }
+
 }
