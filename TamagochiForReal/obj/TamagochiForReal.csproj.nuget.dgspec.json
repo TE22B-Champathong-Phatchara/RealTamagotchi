@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\phatchara.champatho\\Documents\\program2\\RealTamagotchi\\TamagochiForReal\\TamagochiForReal.csproj": {}
+    "C:\\Users\\phatchara.champatho\\Documents\\program2\\RealTamagotchi\\TamagochiForReal\\TamagochiForReal.csproj": {}
   },
   "projects": {
-    "c:\\Users\\phatchara.champatho\\Documents\\program2\\RealTamagotchi\\TamagochiForReal\\TamagochiForReal.csproj": {
+    "C:\\Users\\phatchara.champatho\\Documents\\program2\\RealTamagotchi\\TamagochiForReal\\TamagochiForReal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\phatchara.champatho\\Documents\\program2\\RealTamagotchi\\TamagochiForReal\\TamagochiForReal.csproj",
+        "projectUniqueName": "C:\\Users\\phatchara.champatho\\Documents\\program2\\RealTamagotchi\\TamagochiForReal\\TamagochiForReal.csproj",
         "projectName": "TamagochiForReal",
-        "projectPath": "c:\\Users\\phatchara.champatho\\Documents\\program2\\RealTamagotchi\\TamagochiForReal\\TamagochiForReal.csproj",
+        "projectPath": "C:\\Users\\phatchara.champatho\\Documents\\program2\\RealTamagotchi\\TamagochiForReal\\TamagochiForReal.csproj",
         "packagesPath": "C:\\Users\\phatchara.champatho\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\phatchara.champatho\\Documents\\program2\\RealTamagotchi\\TamagochiForReal\\obj\\",
+        "outputPath": "C:\\Users\\phatchara.champatho\\Documents\\program2\\RealTamagotchi\\TamagochiForReal\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
